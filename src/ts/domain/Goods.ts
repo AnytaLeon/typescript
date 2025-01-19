@@ -8,5 +8,6 @@ export default class Goods implements Buyable {
         readonly year: number,
         readonly country: string,
         readonly model: string,
+        readonly goods: true,
     ) { }
 }
